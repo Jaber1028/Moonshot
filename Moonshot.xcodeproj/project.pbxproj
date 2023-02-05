@@ -11,6 +11,11 @@
 		162AB7BD298C505700120351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162AB7BC298C505700120351 /* ContentView.swift */; };
 		162AB7BF298C505800120351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162AB7BE298C505800120351 /* Assets.xcassets */; };
 		162AB7C2298C505800120351 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162AB7C1298C505800120351 /* Preview Assets.xcassets */; };
+		16C505FA298F3DC100514FED /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 16C505F8298F3DC100514FED /* astronauts.json */; };
+		16C505FB298F3DC100514FED /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 16C505F9298F3DC100514FED /* missions.json */; };
+		16C505FF298F3E9600514FED /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C505FE298F3E9600514FED /* Astronaut.swift */; };
+		16C50601298F3F1800514FED /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C50600298F3F1800514FED /* Bundle-Decodable.swift */; };
+		16C50603298F40D900514FED /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C50602298F40D900514FED /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		162AB7BC298C505700120351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		162AB7BE298C505800120351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		162AB7C1298C505800120351 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16C505F8298F3DC100514FED /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		16C505F9298F3DC100514FED /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		16C505FE298F3E9600514FED /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		16C50600298F3F1800514FED /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		16C50602298F40D900514FED /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				162AB7BA298C505700120351 /* MoonshotApp.swift */,
 				162AB7BC298C505700120351 /* ContentView.swift */,
+				16C50602298F40D900514FED /* Mission.swift */,
+				16C505FE298F3E9600514FED /* Astronaut.swift */,
+				16C50600298F3F1800514FED /* Bundle-Decodable.swift */,
+				16C505F8298F3DC100514FED /* astronauts.json */,
+				16C505F9298F3DC100514FED /* missions.json */,
 				162AB7BE298C505800120351 /* Assets.xcassets */,
 				162AB7C0298C505800120351 /* Preview Content */,
 			);
@@ -127,6 +142,8 @@
 			files = (
 				162AB7C2298C505800120351 /* Preview Assets.xcassets in Resources */,
 				162AB7BF298C505800120351 /* Assets.xcassets in Resources */,
+				16C505FA298F3DC100514FED /* astronauts.json in Resources */,
+				16C505FB298F3DC100514FED /* missions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C505FF298F3E9600514FED /* Astronaut.swift in Sources */,
 				162AB7BD298C505700120351 /* ContentView.swift in Sources */,
 				162AB7BB298C505700120351 /* MoonshotApp.swift in Sources */,
+				16C50603298F40D900514FED /* Mission.swift in Sources */,
+				16C50601298F3F1800514FED /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

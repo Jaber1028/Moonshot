@@ -12,9 +12,10 @@ How can we compose smaller views into larger ones to help keep our project organ
 ## Images: Main, Example Mission, and Example Astronaut Screens
 <div style="width:60px ; height:60px">
 ![main](/main.png? "Main Navigation Grid")
+<div>
 ![Mission](/mission.png?raw=true "Apollo 9")
 ![Astronaut](/astronaut.png?raw=true "David R. Scott")
-<div>
+
 
 # Credits
 Paul Hudson at Hacking with Swift and Wikipedia with their awesome contributors!

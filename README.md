@@ -10,9 +10,8 @@ Tackels how can you make an image fit its space correctly, How can we clean up c
 How can we compose smaller views into larger ones to help keep our project organized.
 
 ## Images: Main, Example Mission, and Example Astronaut Screens
-<div style="width:60px ; height:60px">
-![main](/main.png? "Main Navigation Grid")
-<div>
+![main](/main.png? height="60" width="60" "Main Navigation Grid")
+
 ![Mission](/mission.png?raw=true "Apollo 9")
 ![Astronaut](/astronaut.png?raw=true "David R. Scott")
 
